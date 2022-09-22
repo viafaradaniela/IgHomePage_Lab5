@@ -26,7 +26,7 @@ interface DataShape {
       likes:"21.056.230",
       caption:"Are you all ready for season 4?",
       comment: 16.236,
-      date:1,
+      date:6,
       nameprofile1: "Netfilx",
     },
     {
@@ -69,7 +69,7 @@ interface DataShape {
       ///IgPost - Array
       ppp: "./img/ppp4.png",
       nameprofile:"hbomax", 
-      pti:"picfeedhbo.png",
+      pti:"img/picfeedhbo.png",
       likes:"17.756.789",
       caption:"#EUPHORIA has been renewed for season 3.",
       comment:5.278,
@@ -85,7 +85,7 @@ interface DataShape {
       ///IgPost - Array
       ppp: "./img/ppp5.png",
       nameprofile:"primevideo", 
-      pti:"picfeedprime.jpg",
+      pti:"img/picfeedprime.png",
       likes:"30.056",
       caption:"Every legend has a beginning. #TheRingsOfPower",
       comment:5.896,

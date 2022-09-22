@@ -59,11 +59,25 @@ class IgHome extends HTMLElement {
             <p class="follow">
             follow
             </p>
+
+            <p class="follow2">
+            follow
+            </p>
+
+            <p class="follow3">
+            follow
+            </p>
         
+            <p class="follow4">
+            follow
+            </p>
+            
+            <p class="follow5">
+            follow
+            </p>
 
             <div>
-             <img src="img/back.png" height= "150" width="2000" class="back">
-             <img src="img/HeadHome.png" width="1070" class="Head">
+             
              <img src="img/igstories.png" width="400" height= "127" class="igstories">
              <img src="img/myprofilepic.png" width="70" class="myprofilepic">
              <img src="img/lowinformation.png" width="300" class="lowinformation">

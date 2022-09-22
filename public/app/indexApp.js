@@ -9,6 +9,7 @@ class AppContainer extends HTMLElement {
         this.profiles = [];
         this.igstories = [];
         this.igpost = [];
+        this.igheadbar = [];
         this.attachShadow({ mode: "open" });
         data.forEach((user) => {
             const profileCard = this.ownerDocument.createElement("my-ig");
@@ -33,6 +34,8 @@ class AppContainer extends HTMLElement {
             igpostCard.setAttribute(Post.date, String(userpost.date));
             igpostCard.setAttribute(Post.nameprofile1, userpost.nameprofile1);
             this.igpost.push(igpostCard);
+            const nave = this.ownerDocument.createElement("my-igheadbar");
+            this.igheadbar.push(nave);
         });
     }
     connectedCallback() {
@@ -52,6 +55,10 @@ class AppContainer extends HTMLElement {
             this.igpost.forEach((igpost) => {
                 var _a;
                 (_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.appendChild(igpost);
+            });
+            this.igheadbar.forEach((headbar) => {
+                var _a;
+                (_a = this.shadowRoot) === null || _a === void 0 ? void 0 : _a.appendChild(headbar);
             });
         }
     }

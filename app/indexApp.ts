@@ -2,12 +2,14 @@ import "./components/indexComponents.js";
 import IgHome, { Attribute } from "./components/Profile/Profile.js";
 import IgStories, { Attributes } from "./components/IgStories/IgStories.js";
 import IgPost, { Post } from "./components/IgPost/IgPost.js";
+import IgHeadBar from "./components/IgHeadBar/IgHeadBar.js";
 import data from "./data.js";
 
 class AppContainer extends HTMLElement{
     profiles: IgHome [] = [];
     igstories: IgStories [] = [];
     igpost: IgPost [] = [];
+    igheadbar: IgHeadBar [] = [];
     constructor(){
         super ();
         this.attachShadow({mode: "open"});
@@ -36,6 +38,10 @@ class AppContainer extends HTMLElement{
             igpostCard.setAttribute(Post.date, String(userpost.date));
             igpostCard.setAttribute(Post.nameprofile1, userpost.nameprofile1);
             this.igpost.push(igpostCard);
+
+            
+        const nave = this.ownerDocument.createElement ("my-igheadbar") as IgHeadBar;
+        this.igheadbar.push(nave);
         });
     }
     connectedCallback(){
@@ -54,6 +60,10 @@ class AppContainer extends HTMLElement{
 
             this.igpost.forEach((igpost)=> {
                 this.shadowRoot?.appendChild(igpost);
+            });
+
+            this.igheadbar.forEach((headbar)=>{
+                this.shadowRoot?.appendChild(headbar);
             });
         }
     }

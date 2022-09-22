@@ -79,7 +79,7 @@ class IgPost extends HTMLElement {
             <view class="otherText">
             view all ${this.comment} comments
             <br>
-            <pre>${this.date} DAY AGO</pre> 
+            <pre>${this.date} DAYS AGO</pre> 
             </p>
         
       `;
