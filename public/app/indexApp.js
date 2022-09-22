@@ -1,5 +1,5 @@
 import "./components/indexComponents.js";
-import { Attribute } from "./components/Profile/Profile.js";
+import { Attribute } from "./components/IgSuggestions/IgSuggestions.js";
 import { Attributes } from "./components/IgStories/IgStories.js";
 import { Post } from "./components/IgPost/IgPost.js";
 import data from "./data.js";

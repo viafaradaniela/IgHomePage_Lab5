@@ -1,5 +1,5 @@
 import "./components/indexComponents.js";
-import IgHome, { Attribute } from "./components/Profile/Profile.js";
+import IgHome, { Attribute } from "./components/IgSuggestions/IgSuggestions.js";
 import IgStories, { Attributes } from "./components/IgStories/IgStories.js";
 import IgPost, { Post } from "./components/IgPost/IgPost.js";
 import IgHeadBar from "./components/IgHeadBar/IgHeadBar.js";
