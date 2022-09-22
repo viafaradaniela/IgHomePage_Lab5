@@ -41,39 +41,39 @@ class IgHome extends HTMLElement {
 
             <p class="ppinformation">
              <b>${this.username}</b><br>
-                <i style="color: rgb(213, 213, 213); ">${this.peoplefollow}</style=> 
+             <i style="color: rgb(213, 213, 213); ">${this.peoplefollow}</style=> 
             </p>
 
             <p class="suggest">
-            <b>Suggestions for you</b><br>  
+             <b>Suggestions for you</b><br>  
             </p>
 
             <p class="suggest1">
-            See all 
+             See all 
             </p>
 
             <p class="suggest2">
-            Change
+             Change
             </p>
 
             <p class="follow">
-            follow
+             follow
             </p>
 
             <p class="follow2">
-            follow
+             follow
             </p>
 
             <p class="follow3">
-            follow
+             follow
             </p>
         
             <p class="follow4">
-            follow
+             follow
             </p>
             
             <p class="follow5">
-            follow
+             follow
             </p>
 
             <div>
@@ -81,6 +81,14 @@ class IgHome extends HTMLElement {
              <img src="img/igstories.png" width="400" height= "127" class="igstories">
              <img src="img/myprofilepic.png" width="70" class="myprofilepic">
              <img src="img/lowinformation.png" width="300" class="lowinformation">
+             
+             <div>
+              <img src="img/igpost.png" height="758"  width="400" class="igpost">
+              <img src="img/igpost.png" height="758"  width="400" class="igpost2">
+              <img src="img/igpost.png" height="758"  width="400" class="igpost3">
+              <img src="img/igpost.png" height="758"  width="400" class="igpost4">
+              <img src="img/igpost.png" height="758"  width="400" class="igpost5">
+             </div>
             </div>
             `;
         }

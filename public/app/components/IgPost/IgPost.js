@@ -60,7 +60,7 @@ class IgPost extends HTMLElement {
             Los Angeles, California<br>
             </p>
              
-            
+        
             <img src=${this.pti} height="500" class="pti"> 
          
             <div class="op">
@@ -73,7 +73,7 @@ class IgPost extends HTMLElement {
             <p class="lowText">
             <b>${this.likes} likes </b> 
             <br>
-            <b>${this.nameprofile1}</b>${this.caption} 
+            <b>${this.nameprofile1}</b>&nbsp;${this.caption} 
             </p>
             
             <view class="otherText">

@@ -80,7 +80,7 @@ render() {
             Los Angeles, California<br>
             </p>
              
-            
+        
             <img src=${this.pti} height="500" class="pti"> 
          
             <div class="op">
@@ -93,7 +93,7 @@ render() {
             <p class="lowText">
             <b>${this.likes} likes </b> 
             <br>
-            <b>${this.nameprofile1}</b>${this.caption} 
+            <b>${this.nameprofile1}</b>&nbsp;${this.caption} 
             </p>
             
             <view class="otherText">
